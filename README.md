@@ -1,4 +1,11 @@
-# Puppet wget for Boxen
+# WGet Puppet Module for Boxen
 
-FIXME: update me bro
+Requires the following boxen modules:
 
+* `boxen`
+
+## Usage
+
+```puppet
+include wget
+```
