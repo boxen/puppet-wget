@@ -4,7 +4,7 @@
 #
 #   include wget
 class wget {
-  require homebrew
+  include homebrew
 
   package { 'wget': }
 }

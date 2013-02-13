@@ -2,10 +2,14 @@
 
 Requires the following boxen modules:
 
-* `boxen`
-
 ## Usage
 
 ```puppet
 include wget
 ```
+
+## Required Puppet Modules
+
+* boxen
+* homebrew
+
