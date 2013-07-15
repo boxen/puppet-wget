@@ -6,5 +6,5 @@
 class wget {
   include homebrew
 
-  package { 'wget': }
+  package { ['pcre', 'wget' ]: }
 }
