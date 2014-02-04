@@ -4,7 +4,9 @@
 #
 #   include wget
 class wget {
-  include homebrew
+  if $::osfamily == 'Darwin' {
+    include homebrew
+  }
 
   package { 'wget': }
 }
