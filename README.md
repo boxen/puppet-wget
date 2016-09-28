@@ -1,17 +1,7 @@
 # WGet Puppet Module for Boxen
 
-[![Build Status](https://travis-ci.org/boxen/puppet-wget.png?branch=master)](https://travis-ci.org/boxen/puppet-wget)
+Deprecated in favour of [brewcask][1] and [Boxen's in built support for
+homebrew/brewcask][2].
 
-Requires the following boxen modules:
-
-## Usage
-
-```puppet
-include wget
-```
-
-## Required Puppet Modules
-
-* boxen
-* homebrew
-
+[1]: https://caskroom.github.io/
+[2]: https://git.io/v6NlB
